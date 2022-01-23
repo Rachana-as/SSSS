@@ -65,11 +65,12 @@ a {
   justify-content: space-between;
   align-items: center;
   grid-row: 0/1;
-  padding: 20px;
+  padding : 40px;
+  padding-bottom: 0px;
   font-size: 1.3rem;
 }
 .navigation--bg {
-  background: #fd267c7a;
+  background: #8875DA A ;
 }
 .logo {
   color: white;
@@ -317,4 +318,8 @@ a.login:hover {
 }
 .container-delete form * {
   margin: 10px;
+}
+
+.c{
+  background-color: #fd267d;
 }

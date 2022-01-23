@@ -54,16 +54,16 @@
   </div>
 </section>
 
-<section class="messages">
+<section class="messages" >
 {% if msgs %}
   {% for msg in msgs %}
-      <div class="message">
+      <div class="message" style="background-color: white;">
           <div class="message__detail">
               <img class="message__image" src='{{msg.author.profile.profile_image.url}}' />
               <p class="message__authort">{{msg.author.profile.full_name}}</p>
               <p class="message__date">{{msg.date_posted|date:"D/m/y - H:i"}}</p>
           </div>
-          <div class="message__content">
+          <div class="message__content" >
               <p class="message__msg">{{msg.content}}</p>
           </div>
           <form method="POST", action="{% url 'mark-read' msg.pk %}">
