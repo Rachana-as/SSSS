@@ -17,8 +17,8 @@
 {% endblock head %}
 <!--  -->
 {% block content %}
-
   <div class="navigation navigation--bg"style="background-color:#fcf75e">
+  <div class="navigation navigation--bg">
     <a href="" class="logo link">XORBIT</a>
     <div>
       {% if user.is_authenticated %}
@@ -73,7 +73,7 @@
   <ul class="collapsible" id="filter">
     <li>
       <div class="collapsible-header">
-        <i class="material-icons">search</i>Find the Perfect Match
+        <i class="material-icons">search</i>Find Your Match
       </div>
       <div class="collapsible-body">
         <form action="" method="get">
@@ -102,7 +102,7 @@
       {% if user.user != userIn %}
       
         {% if userIn not in user.blocked_by.all %}
-        <div class="user-card" style="background-color:white">
+        <div class="user-card">
           <a href="{% url 'user-detail' user.pk %}">
             <img src="{{user.profile_image.url}}" class="image-home" alt="" />
           </a>
