@@ -4,11 +4,11 @@
 <!--  -->
 {% block content %}
 <section>
-  <div class="navigation navigation--bg">
+  <div class="navigation navigation--bg"style="background-color:#fcf75e">
     <a href="/" class="logo link">XORBIT</a>
     <div>
       {% if user.is_authenticated %}
-      <a href="{% url 'profile-page' %}" class="profile-link link">Profile</a>
+      <a href="{% url 'profile-page' %}" class="profile-link link" >Profile</a>
       <a href="{% url 'logout' %}" class="login link">Logout</a>
       {% else %}
       <a href="{% url 'login' %}" class="login link">Log in</a>
@@ -78,29 +78,29 @@
 </section>
 </div>
 
-<footer class="page-footer">
+<footer class="page-footer"style="background-color:#fefe33">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">XORBIT</h5>
-        <p class="grey-text text-lighten-4">
+        <h5 class="black-text">XORBIT</h5>
+        <p class="black-text text-lighten-4">
         </p>
       </div>
       <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">Links</h5>
+        <h5 class="black-text">Links</h5>
         <ul>
           <li>
-            <a class="grey-text text-lighten-3" href="{% url 'profile-page' %}"
+            <a class="black-text text-lighten-3" href="{% url 'profile-page' %}"
               >Profile</a
             >
           </li>
           <li>
-            <a class="grey-text text-lighten-3" href="{% url 'logout' %}"
+            <a class="black-text text-lighten-3" href="{% url 'logout' %}"
               >Logout</a
             >
           </li>
           <li>
-            <a class="grey-text text-lighten-3" href="{% url 'date-page' %}"
+            <a class="black-text text-lighten-3" href="{% url 'date-page' %}"
               >Home</a
             >
           </li>
@@ -109,7 +109,9 @@
     </div>
   </div>
   <div class="footer-copyright">
-    <div class="container">XORBIT © 2020</div>
+    <div class="container">
+      <div class="black-text">
+      XORBIT © 2020</div>
   </div>
 </footer>
 
