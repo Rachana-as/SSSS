@@ -178,11 +178,11 @@ a.login:hover {
 }
 .like-btn i {
   font-size: 1.5rem;
-  color: rgb(209, 107, 124);
+  color:red
 }
 .block-btn i {
   font-size: 1.5rem;
-  color: rgba(187, 15, 44, 0.9);
+  color: red
 }
 
 .like-btn:hover,
