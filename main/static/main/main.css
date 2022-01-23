@@ -65,22 +65,14 @@ a {
   justify-content: space-between;
   align-items: center;
   grid-row: 0/1;
-  padding : 40px;
-  padding-bottom: 0px;
+  padding : 20px;
   font-size: 1.3rem;
 }
 .navigation--bg {
-<<<<<<< HEAD
-  background: #cc00cc;
+  background: #a714a7;
 }
 .logo {
   color: #515151;
-=======
-  background: #8875DA A ;
-}
-.logo {
-  color:#2b2b2b;
->>>>>>> 0526db392b44e6990f3bef11d81eb894418eb47d
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
 }
