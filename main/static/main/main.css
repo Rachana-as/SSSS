@@ -70,10 +70,10 @@ a {
   font-size: 1.3rem;
 }
 .navigation--bg {
-  background: #cc00cc A ;
+  background: #cc00cc;
 }
 .logo {
-  color: white;
+  color: #515151;
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
 }
@@ -96,7 +96,7 @@ a.login:hover {
 
 .profile-link {
   text-decoration: none;
-  color: white;
+  color: black;
   margin-right: 10px;
 }
 .profile {
@@ -211,7 +211,7 @@ a.login:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgb(241, 133, 133);
+  background: #fcf75e;
 }
 .container-fluid .btn {
   margin: auto;
