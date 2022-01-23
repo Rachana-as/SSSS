@@ -73,7 +73,7 @@ a {
   background: #8875DA A ;
 }
 .logo {
-  color: white;
+  color:#2b2b2b;
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
 }
@@ -96,7 +96,7 @@ a.login:hover {
 
 .profile-link {
   text-decoration: none;
-  color: white;
+  color: black;
   margin-right: 10px;
 }
 .profile {
