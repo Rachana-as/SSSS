@@ -60,7 +60,7 @@ a {
 .navigation {
   z-index: 999;
   text-decoration: none;
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@ a {
   background: #cc00cc A ;
 }
 .logo {
-  color: white;
+  color: black;
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
 }
