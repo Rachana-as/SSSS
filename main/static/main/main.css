@@ -68,7 +68,7 @@ a {
   font-size: 1.3rem;
 }
 .navigation--bg {
-  background: #fcf75e;
+  background: black;
 }
 .logo {
   color: #515151;
@@ -158,7 +158,7 @@ a.login:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 20px;
+  
 
 }
 .info-container {
