@@ -18,9 +18,9 @@
 <!--  -->
 {% block content %}
 
-  <div class="navigation navigation--bg" style="background-color:#fcf75e">
+  <div class="navigation navigation--bg" style="background-color:#fcf75e; padding: 9px; ">
     <div class="user-view">
-      <a href="{% url 'profile-page' %}"><img style="padding: 0%;" width="80px" height="60px"  src="/static/main/b3.jpg" />
+      <a href="{% url 'profile-page' %}"><img style="padding:0%;" width="80px" height="60px"  src="/static/main/b3.jpg" />
     </div>
     <div>
       {% if user.is_authenticated %}
@@ -32,7 +32,7 @@
     </div>
   </div>
   
-  <ul id="slide-out" class="sidenav">
+  <ul id="slide-out" class="sidenav" style="background-color: #F7F6CC  ;">
     <li>
       <div class="user-view">
         <img class="circle" src="{{userIn.profile.profile_image.url}}" />
@@ -98,7 +98,7 @@
   </div>
   {% endfor %}
 
-  <div class="users-container">
+  <div class="users-container" style="padding-bottom: 20px;margin-bottom: 0%;">
     {% for user in users %}
     <!--  -->
       {% if user.user != userIn %}
