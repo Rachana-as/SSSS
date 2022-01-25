@@ -101,7 +101,7 @@ a.login:hover {
   display: flex;
   margin: 20px;
   justify-content: center;
-  flex-direction: column;
+  
   align-items: center;
 }
 .profile-about {
@@ -208,9 +208,6 @@ a.login:hover {
   background-image: url("/static/main/b2.jpg");
   background-size: 300px;
   background-repeat: repeat;
-}
-.profile-page{
-
 }
 
 .container-fluid {

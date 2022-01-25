@@ -5,7 +5,7 @@
   rel="stylesheet"
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 />
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer> </script>
 <script
   src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
   defer
@@ -18,21 +18,21 @@
 <!--  -->
 {% block content %}
 
-  <div class="navigation navigation--bg" style="background-color:#fcf75e; padding: 9px; ">
+  <div class="navigation navigation--bg" style="background-color:#fcf75e">
     <div class="user-view">
-      <a href="{% url 'profile-page' %}"><img style="padding:0%;" width="80px" height="60px"  src="/static/main/b3.jpg" /></a>
+      <a href="{% url 'profile-page' %}"><img style="padding: 0%;" width="80px" height="60px"  src="/static/main/b3.jpg" />
     </div>
     <div>
       {% if user.is_authenticated %}
-      <img href="{% url 'profile-page' %}" class="circle" width="60px"  height="60px"   src="{{userIn.profile.profile_image.url}}" />
-      <a href="{% url 'logout' %}"><img  width="50px" height="50px"  src="/static/main/b4.jpg" /></a>
+      <img href="{% url 'profile-page' %}" class="circle" width="80px"  height="80px"   src="/static/main/b5.jpg" />
+      <a href="{% url 'logout' %}"><img  width="51px" height="51px"  src="/static/main/b4.jpg" /></a>
       {% else %}
-      <a href="{% url 'login' %}" class="login link">Log in</a>
+      <a href="{% url 'login' %}" class="login link"> Log in</a>
       {% endif %}
     </div>
   </div>
   
-  <ul id="slide-out" class="sidenav" style="background-color: #F7F6CC  ;">
+  <ul id="slide-out" class="sidenav">
     <li>
       <div class="user-view">
         <img class="circle" src="{{userIn.profile.profile_image.url}}" />
@@ -98,7 +98,6 @@
   </div>
   {% endfor %}
 
-  
   <div class="users-container" style="padding-bottom:20px;  margin-bottom:0px">
     {% for user in users %}
     <!--  -->

@@ -11,12 +11,58 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="{% static 'users/main.css' %}" />
-    <title>XORBIT | Logged Out</title>
+    <title>SSSS| Logged Out</title>
+    <style>
+      .content-section {
+        background: linear-gradient(262deg, #ff7854, #fd267d);
+        padding: 1rem 3rem;
+        transition: background ease;
+        border-radius: 100vh;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+      z-index: 15;
+      margin-top: -100px;
+      margin -left: 10px;
+      place-self: start center;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.27);
+      }
+ .login {
+    height: 100vh;
+   background-image: url("/static/main/b6.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: grid;
+   }
+      }
+      .navigation {
+        z-index: 999;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        grid-row: 0/1;
+        padding : 0px;
+        font-size: 1.3rem;
+      }
+      
+    </style>
   </head>
+  
   <body>
     <section class="login">
+      <div class="navigation">
+
+         <img style="padding: 1%;"  width="400px" height="400px"  src="/static/main/b3.jpg" />
+        
+      </div>
       <div class="content-section">
-        <h3>You have been Logged Out</h3>
+        <h2> You Have </h2>
+        <h3>Logged out!!!</h3>
         <a href="{% url 'login' %}">Log back in?</a>
       </div>
     </section>

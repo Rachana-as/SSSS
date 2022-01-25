@@ -1,12 +1,30 @@
 {% extends "base.html" %}
 <!--  -->
 {% block content %}
+<head>
+<style>
+.landing {
+   height: 100vh;
+  background-image: url("/static/main/b1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+}
+.logo {
+  color: black;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+}
+
+</style>
+</head>
 <section class="landing">
+
   <div class="navigation">
-    <a href="" class="logo">XORBIT</a>
-    <a href="{% url 'login' %}" class="login">Log in</a>
+    <a href="" class="logo" ><h1>Same Slot Same Spot!<h2></a>
+    
   </div>
   <h1 class="title"></h1>
-  <a href="{% url 'register' %}" class="create-btn">Create Account</a>
+  <a href="{% url 'login' %}" class="create-btn">LOGIN</a>
 </section>
 {% endblock content %}
