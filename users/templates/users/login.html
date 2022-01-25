@@ -13,11 +13,23 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <style>
+      .l {
+        height: 100vh;
+        background-image: url("/static/main/b6.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+     </style>
     <link rel="stylesheet" href="{% static 'users/main.css' %}" />
-    <title>XORBIT | Login</title>
+    <title>SSSS| Login</title>
   </head>
   <body>
-    <section class="login">
+    <section class="l">
       <div class="content-section">
         <form action="" method="POST">
           {% csrf_token %} {{ form|crispy }}

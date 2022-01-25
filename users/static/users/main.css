@@ -3,15 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.login {
-  height: 100vh;
-  background-image: url("/static/users/");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .login::after {
   content: "";

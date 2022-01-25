@@ -3,25 +3,36 @@
 {% block content %}
 <head>
 <style>
-.landing {
+.land {
    height: 100vh;
   background-image: url("/static/main/b1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
 }
-.logo {
+.log{
   color: black;
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
 }
+.nav {
+  z-index: 999;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-row: 0/1;
+  padding : -100px;
+  font-size: 1.3rem;
+}
 
 </style>
 </head>
-<section class="landing">
+<section class="land">
 
-  <div class="navigation">
-    <a href="" class="logo" ><h1>Same Slot Same Spot!<h2></a>
+  <div class="nav">
+    <a href="" class="log" ><h1>Same Slot Same Spot!</h1></a>
     
   </div>
   <h1 class="title"></h1>
